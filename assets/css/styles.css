@@ -29,7 +29,7 @@
 }
 
 .navbar{
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
 }
 
 .about_me{
@@ -39,3 +39,22 @@
 .primer_texto{
     font-size: 35px;
 }
+
+.imagen_about-me{
+    width: 28.125rem;
+}
+
+@media screen and (max-width: 800px) {
+    .imagen, .imagen_about-me{
+    width: 18rem;   
+    }
+
+    .texto_presentacion{
+        font-size: 1.5rem;
+    }
+
+    .texto_presentacion-a{
+        font-size: 0.8rem;
+    }
+}
+

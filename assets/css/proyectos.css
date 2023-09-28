@@ -1,5 +1,6 @@
 .proyectos{
-    height: 83vh;
+    height: 100%;
+    margin-bottom: 5rem;
 }
 
 .proyecto__contain-image{
@@ -16,4 +17,40 @@
 
 .proyecto_boton{
     font-size: 2rem;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .proyecto__contain-image{
+        width: 800px;
+    }
+
+    .proyecto_container{
+        margin-left: 0rem;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .imagen{
+        width: 350px;
+    }
+
+    .proyecto__contain-image{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .proyecto__contain-image{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .proyecto__contain-image{
+        width: 250px;
+    }
 }

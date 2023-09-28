@@ -12,7 +12,7 @@
     <!-- barra navegacion -->
     <nav class="navbar navbar-expand-lg py-3 navbar-dark">
         <div class="container px-5 text-light">
-            <a class="navbar-brand" href="index.html"><span class="fw-bolder">Heiber Cordoba</span></a>
+            <a class="navbar-brand" href="index.html"><span class="fw-bolder">Heibert Cordoba</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
@@ -37,20 +37,20 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active ">
+            <div class="carousel-item  ">
                 <div class="experiencia d-flex flex-column justify-content-center align-items-center">
-                    <h2 class="titulo_experiencia font-monospace">Experiencia</h2>
+                    <h2 class="titulo_experiencia titulo font-monospace">Experiencia</h2>
                     <div class="spinner-border text-warning" role="status">
                         <span class="visually-hidden">Loading...</span>
                     </div>
-                    <img src="assets/img/loading.svg" alt="">
+                    <img src="assets/img/loading.svg" class="loading" alt="">
                     <p>(aun no, pero pronto...)</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <div class="educacion d-flex flex-column align-items-center">
-                    <h2 class="formacion_titulo font-monospace">Educacion</h2>
-                    <div class="d-flex justify-content-evenly contenedor_items">
+                    <h2 class="formacion_titulo font-monospace titulo">Educacion</h2>
+                    <div class="d-flex justify-content-evenly contenedor_items flex-wrap w-75">
                         <div class="formacion__item d-flex flex-column justify-content-center align-items-center">
                             <div class="formacion_imagen-contenedor">
                                 <img src="assets/img/icon_catumare.png" alt="" class="formacion__imagen">
@@ -67,7 +67,7 @@
                         </div>
                         <div class="formacion__item d-flex flex-column justify-content-center align-items-center">
                             <div class="formacion_imagen-contenedor">
-                                <img src="assets/img/icon_sena.svg" alt="" class="formacion__imagen tamaño">
+                                <img src="assets/img/icon_sena.svg" alt="" class="formacion__imagen">
                             </div>
                             <p class="font-monospace">Analisis y desarrollo de software</p>
                             <p class="font-monospace">2022 - 2025 / cursando </p>
@@ -75,12 +75,12 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item ">
+            <div class="carousel-item">
                 <div class="habilidades_aptitudes flex-column d-flex justify-content-around align-items-center">
-                    <h2 class="habilidades_aptitudes-titulo">Aptitudes</h2>
-                    <div class="habilidades_aptitudes-items d-flex justify-content-evenly">
+                    <h2 class="habilidades_aptitudes-titulo titulo ">Aptitudes</h2>
+                    <div class="habilidades_aptitudes-items d-flex justify-content-evenly justify-content-sm-center flex-wrap w-75">
                         <div class="card btn btn-outline-dark" style="width: 18rem;">
-                            <div class="card-body">
+                            <div class="card-body d-flex align-items-center justify-content-center">
                                 <p class="card-text">Comunicación</p>
                             </div>
                         </div>
@@ -94,8 +94,6 @@
                                 <p class="card-text"> Gestión de Proyectos</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="habilidades_aptitudes-items d-flex justify-content-lg-evenly">
                         <div class="card btn btn-outline-dark" style="width: 18rem;">
                             <div class="card-body">
                                 <p class="card-text">Trabajo en Equipo</p>
@@ -111,8 +109,6 @@
                                 <p class="card-text">Habilidades de Programación</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="habilidades_aptitudes-items d-flex justify-content-evenly">
                         <div class="card btn btn-outline-dark" style="width: 18rem;">
                             <div class="card-body">
                                 <p class="card-text">Lógica de Programación</p>
@@ -130,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex align-items-center justify-content-around">
+                <div class="d-flex align-items-center justify-content-around d-none d-sm-none d-md-none d-lg-none d-xxl-flex">
                     <img src="assets/img/ha (1).png" alt="">
                     <img src="assets/img/ha (2).png" alt="">
                     <img src="assets/img/ha (3).png" alt="">
@@ -138,8 +134,8 @@
             </div>
             <div class="carousel-item">
                 <div class="lenguages d-flex flex-column align-items-center">
-                    <h2 class="lenguages__titulo">Habilidades</h2>
-                    <ul class="lenguages__lista d-flex justify-content-evenly w-100">
+                    <h2 class="lenguages__titulo titulo">Habilidades</h2>
+                    <ul class="lenguages__lista d-flex justify-content-evenly w-75 flex-wrap">
                         <li class="lenguages_item">
                             <img class="lenguages__image" src="assets/img/icon_html.png" alt="">
                             <p class="lenguages__name">Html</p>

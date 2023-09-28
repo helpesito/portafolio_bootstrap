@@ -29,7 +29,6 @@
 }
 
 .formacion_titulo{
-    margin-bottom: 5rem;
     font-size: 5rem;
 }
 
@@ -38,7 +37,7 @@
 }
 
 .habilidades_aptitudes{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .habilidades_aptitudes-items{
@@ -47,7 +46,7 @@
     text-align: center;
 }
 .habilidades_aptitudes-titulo{
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     font-size: 5rem;
 }
 
@@ -56,13 +55,14 @@
 }
 
 .lenguages__titulo{
-    margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
     font-size: 5rem;
 }
 
 .lenguages_item{
     text-align: center;
+    margin-left: 2rem;
 }
 
 .proyecto__titulo{
@@ -73,4 +73,61 @@
 
 .proyecto__contain-image{
     width: 400px;
+}
+
+.card{
+    margin-left: 3rem;
+}
+
+
+@media screen and (max-width: 900px){
+
+    .lenguages_item{
+        margin-left: 0;
+    }
+
+    .titulo{
+        font-size: 2rem;
+    }
+
+    .loading{
+        width: 350px;
+    }
+
+    .card{
+        margin-left: 0rem;
+        height: 3rem;
+        margin-bottom: 0;
+    }
+
+    .card-body{
+        padding: 0;
+    }
+    
+    .card-text{
+        font-size: .8rem;
+    }
+    .habilidades_aptitudes-titulo{
+        margin-bottom: 1rem;
+    }
+    
+    .formacion__imagen {
+        width: 5rem;
+        height: 3rem;
+    }
+
+    .formacion__item p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .formacion__item p{
+        font-size: .8rem;
+    }
+    .loading{
+        width: 230px;
+    }
+
 }
