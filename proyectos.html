@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/proyectos.css">
+    <title>Document</title>
+</head>
+<body class="font-monospace">
+    <!-- Header -->
+    <!-- barra navegacion -->
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark">
+        <div class="container px-5 text-light">
+            <a class="navbar-brand" href="index.html"><span class="fw-bolder">Heiber Cordoba</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resumen.html">Resumen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="proyectos d-flex flex-column align-items-center">
+        <div>
+        <img src="assets/img/proyecto_imagen.png" alt="" class="imagen">
+        </div>
+        <div class="d-flex justify-content-evenly">
+            <div class="proyecto_container">
+                <a class="btn btn-primary proyecto_boton" data-bs-toggle="offcanvas" href="#encryptador" role="button" aria-controls="offcanvasExample">
+                    Encriptador de texto
+                </a>
+                
+                <div class="offcanvas offcanvas-start w-100 tabindex=-1  " id="encryptador" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Encriptador de texto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <div>
+                            <div class="proyecto__contain d-flex flex-column align-items-center " >
+                                <img src="assets/img/image_proyecto-encryptador.PNG" alt="imagen proyecto encryptador" 
+                                class="proyecto__contain-image">
+                                <div class="proyectos__description d-flex flex-column align-items-center">
+                                    <div class="proyecto__contain-info">
+                                        <p class="proyecto__contain-texto">Aplicación de Encriptación y Desencriptación de Texto</p>
+                                    </div>
+                                    <div class="proyecto__contain-demo">
+                                        <a href="https://github.com/helpesito/Challenge-Encryptador" 
+                                            class="proyecto__contain-repo btn btn-primary rounded-2"
+                                            target="_blank" 
+                                            rel="noopener noreferrer">
+                                            Repositorio
+                                        </a>
+                                        <a href="https://helpesito.github.io/Challenge-Encryptador/" 
+                                            class="proyecto__contain-demo btn btn-primary rounded-2" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer">
+                                            Demo
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto_container">
+                <a class="btn btn-primary proyecto_boton" data-bs-toggle="offcanvas" href="#Webwine" role="button" aria-controls="offcanvasExample">
+                    Web Wine&Grapes
+                </a>
+                
+                <div class="offcanvas offcanvas-top w-100 h-100 tabindex="-1" id="Webwine" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Web Wine&Grapes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="proyecto__contain d-flex flex-column align-items-center">
+                            <img src="assets/img/image_proyecto-wine&grapes.PNG" alt="web-wine&grapes" class="proyecto__contain-image derecha">
+                            <div class="proyectos__description d-flex flex-column align-items-center">
+                                <div class="proyecto__contain-info">
+                                    <p class="proyecto__contain-texto">Pagina web conformada por html y css</p>
+                                </div>
+                                <div class="proyecto__contain-demo">
+                                    <a href="https://github.com/helpesito/wine-grapes" 
+                                        class="proyecto__contain-repo  btn btn-primary rounded-2"
+                                        target="_blank" 
+                                        rel="noopener noreferrer">
+                                        Repositorio
+                                    </a>
+                                    <a href="https://helpesito.github.io/wine-grapes/" 
+                                        class="proyecto__contain-demo  btn btn-primary rounded-2"
+                                        target="_blank" 
+                                        rel="noopener noreferrer">
+                                        Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto_container">
+                <a class="btn btn-primary proyecto_boton" data-bs-toggle="offcanvas" href="#Websurf" role="button" aria-controls="offcanvasExample">
+                    Web SSurf
+                </a>
+                
+                <div class="offcanvas offcanvas-bottom w-100 h-100 tabindex="-1" id="Websurf" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Web Surf</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="proyecto__contain d-flex flex-column align-items-center">
+                            <img src="assets/img/image_proyecto-surf.PNG" alt="web-wine&grapes" class="proyecto__contain-image derecha">
+                            <div class="proyectos__description d-flex flex-column align-items-center">
+                                <div class="proyecto__contain-info">
+                                    <p class="proyecto__contain-texto">Pagina web conformada por html y css</p>
+                                </div>
+                                <div class="proyecto__contain-demo">
+                                    <a href="https://github.com/helpesito/web-surf" 
+                                        class="proyecto__contain-repo  btn btn-primary rounded-2"
+                                        target="_blank" 
+                                        rel="noopener noreferrer">
+                                        Repositorio
+                                    </a>
+                                    <a href="https://helpesito.github.io/web-surf/" 
+                                        class="proyecto__contain-demo  btn btn-primary rounded-2"
+                                        target="_blank" 
+                                        rel="noopener noreferrer">
+                                        Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto_container">
+                <a class="btn btn-primary proyecto_boton" data-bs-toggle="offcanvas" href="#react_employed" role="button" aria-controls="offcanvasExample">
+                    React employed
+                </a>
+                
+                <div class="offcanvas offcanvas-end w-100 tabindex="-1" id="react_employed" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">React employed</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="proyecto__contain d-flex flex-column align-items-center">
+                            <img src="assets/img/react-employed.png" alt="web-wine&grapes" class="proyecto__contain-image derecha">
+                            <div class="proyectos__description d-flex flex-column align-items-center">
+                                <div class="proyecto__contain-info">
+                                    <p class="proyecto__contain-texto">app web hecha con react en la cual se puede agregar el trabajador <br>
+                                    dependiendo de su equipo de trabajo, <br>pudiendo agregar su nombre cargo, puesto y foto</p>
+                                </div>
+                                <div class="proyecto__contain-demo">
+                                    <a href="https://github.com/helpesito/react-employed" 
+                                        class="proyecto__contain-repo  btn btn-primary rounded-2"
+                                        target="_blank" 
+                                        rel="noopener noreferrer">
+                                        Repositorio
+                                    </a>
+                                    <a href="https://helpesito.github.io/react-employed/" 
+                                        class="proyecto__contain-demo  btn btn-primary rounded-2"
+                                        target="_blank" 
+                                        rel="noopener noreferrer">
+                                        Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer class="py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto"><div class="small m-0">Copyright &copy; Desarrollador Por Heibert Cordoba</div></div>
+                <div class="col-auto">
+                    <a class="small" href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.imagen{
+    width: 25rem;
+}
+
+.texto_presentacion{
+    font-size: 4.0625rem;
+}
+
+.texto_presentacion-a{
+    font-size: 18px;
+}
+
+.presentacion_iconos{
+    width: 50px;
+}
+
+.informacion__enlaces{
+    width: 80%;
+    margin: auto;
+    list-style: none;
+}
+
+.informacion__link{
+    text-decoration: none;
+    font-size: 18px;
+}
+.presentacion{
+    margin-bottom: 11.8rem;
+}
+
+.navbar{
+    margin-bottom: 10rem;
+}
+
+.about_me{
+    margin-bottom: 5rem;
+}
+
+.primer_texto{
+    font-size: 35px;
+}

@@ -1,0 +1,76 @@
+.experiencia{
+    margin-top: 5rem;
+}
+
+.titulo_experiencia{
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+
+.carrusel{
+    height: 90vh;
+}
+
+.formacion__imagen {
+    width: 16rem;
+    height: 9rem;
+    margin: 1rem;
+}
+
+.formacion__imagen.tamaño  {
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem;
+}
+
+.educacion{
+    margin-top: 5rem;
+    font-size: 1.2rem
+}
+
+.formacion_titulo{
+    margin-bottom: 5rem;
+    font-size: 5rem;
+}
+
+.contenedor_items{
+    width: 100%;
+}
+
+.habilidades_aptitudes{
+    margin-top: 5rem;
+}
+
+.habilidades_aptitudes-items{
+    width: 100%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.habilidades_aptitudes-titulo{
+    margin-bottom: 5rem;
+    font-size: 5rem;
+}
+
+.lenguages__lista{
+    list-style: none;
+}
+
+.lenguages__titulo{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    font-size: 5rem;
+}
+
+.lenguages_item{
+    text-align: center;
+}
+
+.proyecto__titulo{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 5rem;
+}
+
+.proyecto__contain-image{
+    width: 400px;
+}

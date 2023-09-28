@@ -1,0 +1,19 @@
+.proyectos{
+    height: 83vh;
+}
+
+.proyecto__contain-image{
+    width: 1200px;
+}
+
+.imagen{
+    width: 500px;
+}
+
+.proyecto_container{
+    margin-left: 2rem;
+}
+
+.proyecto_boton{
+    font-size: 2rem;
+}
